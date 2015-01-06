@@ -1,0 +1,25 @@
+Prerequisite:
+	Installed packages:
+		boost 1.53
+		cplex 12.4
+		
+	Development platform:
+		OMNet++ 4.2.1
+		
+How to compile?
+# Compilation command on shell4.doc.ic.ac.uk
+opp_makemake -f --deep -O out -I/homes/lm111/opt/cplex/include -I/homes/lm111/opt/concert/include -I/homes/lm111/opt/opl/include -L/homes/lm111/opt/cplex/lib/x86-64_sles10_4.1/static_pic -L/homes/lm111/opt/concert/lib/x86-64_sles10_4.1/static_pic -DIL_STD -lilocplex -lconcert -lcplex -lm -lpthread
+make
+
+# Compilation command on parallel ubuntu virtual machine
+opp_makemake -f --deep -O out -I/home/parallels/Development/boost_1_53_0 -I/opt/ibm/ILOG/CPLEX_Studio124/cplex/include -I/opt/ibm/ILOG/CPLEX_Studio124/concert/include -I/opt/ibm/ILOG/CPLEX_Studio124/opl/include -L/opt/ibm/ILOG/CPLEX_Studio124/cplex/lib/x86-64_sles10_4.1/static_pic -L/opt/ibm/ILOG/CPLEX_Studio124/concert/lib/x86-64_sles10_4.1/static_pic -DIL_STD -lilocplex -lconcert -lcplex -lm -lpthread
+make
+
+# Compilation command on koala1
+opp_makemake -f --deep -O out -I/home/lm111/boost_1_53_0 -I/opt/ibm/ILOG/CPLEX_Studio124/cplex/include -I/opt/ibm/ILOG/CPLEX_Studio124/concert/include -I/opt/ibm/ILOG/CPLEX_Studio124/opl/include -L/opt/ibm/ILOG/CPLEX_Studio124/cplex/lib/x86-64_sles10_4.1/static_pic -L/opt/ibm/ILOG/CPLEX_Studio124/concert/lib/x86-64_sles10_4.1/static_pic -DIL_STD -lilocplex -lconcert -lcplex -lm -lpthread
+make
+
+How to run?
+Assuming that the executable file is called "sim", then
+./sim -u Cmdenv (Command line mode)
+./sim (Graphics mode)

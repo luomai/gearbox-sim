@@ -1,0 +1,30 @@
+Simulator setting: key:value
+
+# If the simulator is running in the random mode
+random_mode:1
+
+# The cloud workload
+workload:1.0
+
+# Allocation policy MIN=1 MAX=2 RAND=3 EDF=4 LP=5 MIP=6 SP=7
+policy_id:7
+
+# Admission control policy MARGIN=1 TOTAL=2 AVG_JOB_RETURN=3 NONE=4
+admission_id:4
+
+# Simulation length
+sim_len:10000
+
+# The setting of token performance which belongs to a normal distribution
+token_perf_mean:1
+token_perf_std:0.09
+token_count:1000
+
+# The setting about the job
+# job_size = base * (1 + scale) where scale belongs to a half-normal distribution
+job_size_base:50
+job_size_scale_mean:0
+job_size_scale_std:50
+
+# The probability guarantee of SP
+sp_quantile:1.96

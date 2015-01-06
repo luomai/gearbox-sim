@@ -1,0 +1,23 @@
+!SESSION 2013-01-22 03:10:24.791 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.omnetpp.main 1 0 2013-01-22 03:10:51.422
+!MESSAGE OMNeT++ IDE 4.2.1.120327-7947143 started.
+
+!ENTRY org.eclipse.core.resources 4 77 2013-01-22 03:11:17.855
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2013-01-22 03:11:17.855
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-01-22 03:11:17.855
+!MESSAGE /home/parallels/Dropbox/MRes Individual Project - Cloud Resource/src/IndividualProject overlaps the workspace location: /home/parallels/Dropbox/MRes Individual Project - Cloud Resource/src/IndividualProject
+
+!ENTRY org.eclipse.core.resources 4 77 2013-01-22 03:11:44.316
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2013-01-22 03:11:44.316
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-01-22 03:11:44.316
+!MESSAGE /home/parallels/Dropbox/MRes Individual Project - Cloud Resource/src/IndividualProject overlaps the workspace location: /home/parallels/Dropbox/MRes Individual Project - Cloud Resource/src/IndividualProject
